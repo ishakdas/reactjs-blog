@@ -2,9 +2,7 @@ export enum ContactType {
   github = 'github',
   linkedin = 'linkedin',
   twitter = 'twitter',
-  youtube = 'youtube',
   email = 'email',
-  buymeacoffee = 'buymeacoffee',
 }
 
 export interface Contact {
@@ -15,15 +13,13 @@ export interface Contact {
 }
 
 export const contact: Contact = {
-  twitter: '@karan_6864',
-  site: 'karanpratapsingh.com',
-  calendly: 'https://calendly.com/karanpratapsingh',
+  twitter: '@ishakdas',
+  site: 'ishakdas.dev',
+  calendly: 'https://calendly.com/ishakdas',
   links: {
-    github: 'https://github.com/karanpratapsingh',
-    linkedin: 'https://linkedin.com/in/karan99',
-    twitter: 'https://twitter.com/karan_6864',
-    youtube: 'https://www.youtube.com/c/KaranPratapSingh',
-    email: 'mailto:contact@karanpratapsingh.com',
-    buymeacoffee: 'https://www.buymeacoffee.com/karanps',
+    github: 'https://github.com/ishakdas',
+    linkedin: 'https://linkedin.com/in/ishakdas',
+    twitter: 'https://twitter.com/ishakdas',
+    email: 'mailto:ishak@ishakdas.dev',
   },
 };

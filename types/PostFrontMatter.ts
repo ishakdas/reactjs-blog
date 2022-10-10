@@ -1,4 +1,4 @@
-export type PostFrontMatter = {
+export default interface PostFrontMatter  {
   title: string;
   date: string;
   tags: string[];

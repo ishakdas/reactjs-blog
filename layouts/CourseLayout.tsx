@@ -11,7 +11,7 @@ import { courseSlugMap } from 'config/courses';
 import Image from 'next/image';
 import { ReactNode } from 'react';
 import { AuthorFrontMatter } from 'types/AuthorFrontMatter';
-import { PostFrontMatter } from 'types/PostFrontMatter';
+import PostFrontMatter from 'types/PostFrontMatter';
 import { Toc } from 'types/Toc';
 
 const editUrl = fileName =>
